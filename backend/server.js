@@ -4,7 +4,7 @@ const app = express();
 const port = 5000;
 
 app.get('/', (request, response) => {
-	response.send(`Hello, I'm not alive`);
+	response.send(`Hello, I'm not alive 2`);
 	logger.info('Responded to GET request on /')
 });
 
